@@ -77,7 +77,7 @@ if __name__ == "__main__":
     s = server()
     i = int(input(">"))
     ip = ("127.0.0.1", 9999)
-
+    print("1. RECEIVER \n 2. SENDER")
     if i == 1:
         s.receiver(ip)
     elif i == 2:
